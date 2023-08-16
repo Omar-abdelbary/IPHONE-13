@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background-color: rgb(1,0,1);
+}
+
+header .logo .img-fluid {
+    width: 50px;
+    height: auto;
+    margin-top: 12px;
+}
+
+header .icon {
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-right: 10px;
+    display: none;
+}
+
+
+header a:hover {
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li {
+    margin: 12px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(255,255,255);
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+
+/*  ================================================= end nav bar ==================================== */
+
+.main h1 {
+    color: white;
+    margin-top: 110px ; 
+    margin-bottom: 18px;
+    font-size: 40px;
+
+}
+
+.main p {
+    color: white;
+    font-size: 16px;
+}
+
+.main button {
+    width: 25%;
+    height: auto;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 17px;
+    outline: none;
+    border: 0;
+    font-size: 18px ; 
+
+}
+.main .img-fluid {
+    width: 180px;
+    height: auto;
+    margin-left: 250px;
+}
+
+.img-product {
+    text-align: center;
+}
+
+.img-product .img-fluid {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.img-product .img-fluid:hover {
+    transform: scale(1.2);
+    
+}
+
+
+@media (max-width: 750px) {
+
+    header nav ul {
+        display: none;
+    }
+
+    header nav .icon {
+        display: block;
+
+    }
+
+
+
+
+}
+
+
+
+@media (min-width: 751px) and (max-width: 950px) {
+
+}
+
